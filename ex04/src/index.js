@@ -1,8 +1,10 @@
-{function main() 
+function main() {
     x = 10;
     y = x;
 
-   return [x ,y];
+   return [x, y];
+
 }
-console.log (main());
+  
+console.log(main());
 module.exports = main;
